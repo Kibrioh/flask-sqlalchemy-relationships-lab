@@ -1,5 +1,5 @@
-from app import app
-from models import *
+from ..app import app
+from ..models import *
 
 def test_get_speakers(test_client):
     response = test_client.get("/speakers")
